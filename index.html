@@ -1,0 +1,134 @@
+<!doctype html>
+
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vishakti — Renewable Solar Innovations</title>
+  <meta name="description" content="Vishakti — Dual-axis solar tracking systems with auto-cleaning & stow mode. Visionary, efficient and protected by IP." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--accent:#ffb020;--muted:#9aa6b2;--glass: rgba(255,255,255,0.04)}
+    *{box-sizing:border-box;font-family:Inter,system-ui,Arial,sans-serif}
+    body{margin:0;background:linear-gradient(180deg,#021024 0%, #071835 100%);color:#e6eef8;line-height:1.5}
+    .container{max-width:1100px;margin:32px auto;padding:24px}
+    header{display:flex;align-items:center;gap:16px}
+    .logo{width:64px;height:64px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#ff6a00);display:grid;place-items:center;color:#071026;font-weight:700}
+    .brand{font-size:20px;font-weight:700}
+    .tag{color:var(--muted);font-size:13px}.hero{display:flex;gap:24px;align-items:center;margin-top:28px}
+.hero-left{flex:1}
+h1{font-size:34px;margin:0 0 12px 0}
+p.lead{color:var(--muted);margin:0 0 18px 0}
+.cta{display:flex;gap:12px}
+.btn{background:var(--accent);border:none;padding:12px 18px;border-radius:10px;color:#071026;font-weight:700;cursor:pointer}
+.btn.ghost{background:transparent;border:1px solid rgba(255,255,255,0.08);color:#e6eef8}
+
+.card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(3,7,18,0.6)}
+.features{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:18px}
+.feature{background:var(--glass);padding:12px;border-radius:10px}
+.grid{display:grid;grid-template-columns:1fr 380px;gap:20px;margin-top:22px}
+
+.specs li{margin:8px 0;color:var(--muted)}
+footer{margin-top:36px;padding-top:18px;border-top:1px dashed rgba(255,255,255,0.04);color:var(--muted);font-size:13px}
+
+form{display:flex;flex-direction:column;gap:10px}
+input,textarea,select{padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.06);background:transparent;color:#e6eef8}
+textarea{min-height:110px}
+
+@media (max-width:880px){.grid{grid-template-columns:1fr}.hero{flex-direction:column}.features{grid-template-columns:1fr}}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">V</div>
+      <div>
+        <div class="brand">VISHAKTI</div>
+        <div class="tag">Durga की शक्ति × Vishal का vision — Renewable Solar Innovations</div>
+      </div>
+    </header><section class="hero">
+  <div class="hero-left">
+    <h1>Dual-axis Solar Tracker • Auto-cleaning • Stow Mode</h1>
+    <p class="lead">Vishakti का लक्ष्य है: कम जगह में अधिक ऊर्जा, कम मेंटेनेंस और भारी मौसम सुरक्षा — स्मार्ट, स्केलेबल और IP-protected सोलर सिस्टम।</p>
+    <div class="cta">
+      <button class="btn" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">कॉन्टैक्ट करें</button>
+      <button class="btn ghost" onclick="document.getElementById('deck').scrollIntoView({behavior:'smooth'})">डिटेल्स देखें</button>
+    </div>
+
+    <div class="features">
+      <div class="feature card">
+        <strong>Dual-axis Tracking</strong>
+        <div class="muted" style="color:var(--muted);font-size:13px">दिन के हर घंटे में पैनल को सूरज के अनुसार स्वचालित एडजस्ट</div>
+      </div>
+      <div class="feature card">
+        <strong>Auto-cleaning System</strong>
+        <div style="color:var(--muted);font-size:13px">खुद साफ करने वाला मैकेनिज्म – efficiency बनी रहती है</div>
+      </div>
+      <div class="feature card">
+        <strong>Stow Mode</strong>
+        <div style="color:var(--muted);font-size:13px">तूफान/शक्ति ज्यादा होने पर सुरक्षित पॉज़िशन में स्वचालित वापस</div>
+      </div>
+      <div class="feature card">
+        <strong>IoT & AI Optimization</strong>
+        <div style="color:var(--muted);font-size:13px">Remote monitoring, predictive maintenance और energy analytics</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="width:380px">
+    <div class="card" id="deck">
+      <h3>Product Snapshot</h3>
+      <ul class="specs">
+        <li><strong>Efficiency Gain:</strong> 25–40% over fixed panels</li>
+        <li><strong>Cleaning:</strong> Autonomous brush/air-wash options</li>
+        <li><strong>Survivability:</strong> Stow mode for high-wind & storms</li>
+        <li><strong>Connectivity:</strong> 4G/LPWAN + mobile dashboard</li>
+        <li><strong>IP Protection:</strong> Patent pending (recommend filing)</li>
+      </ul>
+      <div style="margin-top:12px;display:flex;gap:8px">
+        <button class="btn" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Pilot के लिए Apply करें</button>
+        <button class="btn ghost" onclick="alert('Prototype और IP सेवाओं के बारे में हमने सुझाव दिए हैं — NDA और Patent पहले।')">Security Tips</button>
+      </div>
+    </div>
+
+    <div style="height:18px"></div>
+
+    <div class="card">
+      <h4>Quick Contact</h4>
+      <form id="contact" onsubmit="event.preventDefault();alert('Thanks! Your request received. We will contact you.')">
+        <input type="text" name="name" placeholder="नाम" required />
+        <input type="email" name="email" placeholder="ईमेल" required />
+        <select name="interest">
+          <option value="pilot">Pilot / Testing</option>
+          <option value="investment">Investment</option>
+          <option value="partnership">Partnership / Manufacturing</option>
+        </select>
+        <textarea name="message" placeholder="मेस्सेज"></textarea>
+        <button class="btn" type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<div style="margin-top:28px" class="card">
+  <h3>Market & Go-to-Market Strategy (संक्षेप)</h3>
+  <ol style="color:var(--muted)">
+    <li>Prototype बनाएं → lab testing और field pilot</li>
+    <li>Patent और NDA तुरंत फाइल करें</li>
+    <li>Pilot partners: खेत, commercial rooftops, govt schemes</li>
+    <li>Funding: grants, angels, strategic investors</li>
+    <li>Scale: manufacturing partners + export</li>
+  </ol>
+</div>
+
+<footer>
+  <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px">
+    <div>© Vishakti • Renewable Solar Innovations</div>
+    <div style="color:var(--muted)">Prototype & IP सुरक्षित रखें — NDA आवश्यक</div>
+  </div>
+</footer>
+
+  </div>
+</body>
+</html>
