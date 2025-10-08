@@ -95,18 +95,20 @@ textarea{min-height:110px}
     <div style="height:18px"></div>
 
     <div class="card">
-      <h4>Quick Contact</h4>
-      <form id="contact" onsubmit="event.preventDefault();alert('Thanks! Your request received. We will contact you.')">
+    <h4>Quick Contact</h4>
+    <form class="contact-form" action="https://formspree.io/f/vishalchoudhary87532@gmail.com" method="POST">
         <input type="text" name="name" placeholder="नाम" required />
         <input type="email" name="email" placeholder="ईमेल" required />
         <select name="interest">
-          <option value="pilot">Pilot / Testing</option>
-          <option value="investment">Investment</option>
-          <option value="partnership">Partnership / Manufacturing</option>
+            <option value="pilot">Pilot / Testing</option>
+            <option value="investment">Investment</option>
+            <option value="partnership">Partnership / Manufacturing</option>
         </select>
-        <textarea name="message" placeholder="मेस्सेज"></textarea>
+        <textarea name="message" placeholder="मेसेज"></textarea>
         <button class="btn" type="submit">Submit</button>
-      <form class="contact-form" action="https://formspree.io/f/vishalchoudhary87532@gmail.com" method="POST">
+    </form>
+</div>
+
 
     </div>
   </div>
